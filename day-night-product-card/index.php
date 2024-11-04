@@ -34,12 +34,10 @@
     <div class="mt-8 space-x-2">
         <button x-on:click="night = false" class="p-4 bg-white rounded-lg space-x-2"
                 :class="night ? 'opacity-25' : ''">
-            <i x-show="!night" class="fa-regular fa-check"></i>
             <span>Day</span>
         </button>
         <button x-on:click="night = true" class="p-4 bg-white rounded-lg space-x-2"
                 :class="!night ? 'opacity-25' : ''">
-            <i x-show="night" class="fa-regular fa-check"></i>
             <span>Night</span>
         </button>
     </div>
